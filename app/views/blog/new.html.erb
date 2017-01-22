@@ -1,0 +1,7 @@
+<%= form_for :blog, url: blog_index_path do |f| %>
+
+<%= f.label :name %><%= f.text_area :name %>
+<%= f.label :desc %><%= f.text_area :desc %>
+<%= f.submit%>
+
+<%end%>
